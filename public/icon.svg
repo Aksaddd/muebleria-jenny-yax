@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="woodGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a67c52"/>
+      <stop offset="50%" style="stop-color:#8b6914"/>
+      <stop offset="100%" style="stop-color:#6b4423"/>
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="240" fill="url(#woodGradient)"/>
+  <!-- Inner highlight -->
+  <circle cx="256" cy="256" r="200" fill="none" stroke="#d4a574" stroke-width="4" opacity="0.3"/>
+  <!-- JY Monogram -->
+  <text x="256" y="300" font-family="Georgia, serif" font-size="200" font-weight="bold" fill="#f7f5f2" text-anchor="middle">JY</text>
+  <!-- Subtle wood grain lines -->
+  <path d="M80 200 Q180 190 280 200 T480 200" stroke="#d4a574" stroke-width="2" fill="none" opacity="0.2"/>
+  <path d="M80 260 Q180 250 280 260 T480 260" stroke="#d4a574" stroke-width="2" fill="none" opacity="0.2"/>
+  <path d="M80 320 Q180 310 280 320 T480 320" stroke="#d4a574" stroke-width="2" fill="none" opacity="0.2"/>
+</svg>
