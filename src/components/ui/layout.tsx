@@ -82,7 +82,7 @@ const Section = React.forwardRef<HTMLElement, SectionProps>(
 
     return (
       <Component
-        ref={ref as React.Ref<HTMLElement>}
+        ref={ref}
         className={cn(
           spacingClasses[spacing],
           backgroundClasses[background],
