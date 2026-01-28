@@ -7,7 +7,11 @@ const nextConfig = {
   images: {
     formats: ["image/avif", "image/webp"],
     remotePatterns: [
-      // Add any external image domains here if needed
+      {
+        protocol: "https",
+        hostname: "trecwshaaumtjeksngpx.supabase.co",
+        pathname: "/storage/v1/object/public/**",
+      },
     ],
   },
 
