@@ -82,7 +82,8 @@ const Section = React.forwardRef<HTMLElement, SectionProps>(
 
     return (
       <Component
-        ref={ref}
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        ref={ref as any}
         className={cn(
           spacingClasses[spacing],
           backgroundClasses[background],
